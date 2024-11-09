@@ -1,0 +1,61 @@
+/* CSS reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('/path/to/your/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(8px); /* Makes background image softer */
+}
+
+.intro-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ffd700; /* Gold color for headers */
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
